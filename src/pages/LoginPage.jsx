@@ -55,7 +55,7 @@ const LoginPage = () => {
       {/* --- Google OAuth Button --- */}
       <a 
         // Direct link to the backend's Google OAuth initiation endpoint
-        href="http://localhost:5000/api/auth/google" 
+        href={`https://login-api-express-mongodb-peach.vercel.app/api/auth/google`} 
         className="google-button"
       >
         <GoogleIcon />

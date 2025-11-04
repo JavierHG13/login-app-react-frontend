@@ -107,7 +107,7 @@ const RegisterPage = () => {
       
       {/* --- Google OAuth Button --- */}
       <a 
-        href="http://localhost:5000/api/auth/google" 
+        href="https://login-api-express-mongodb-peach.vercel.app/api/auth/google" 
         className="google-button"
       >
         <GoogleIcon />
